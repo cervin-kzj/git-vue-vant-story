@@ -70,7 +70,7 @@ export default {
       setStoryList: "story/setStoryList",
     }),
     switchActive(name) {
-      // console.log("switchActive", name);
+      console.log("switchActive", name);
     },
     jumpUrl(classifyId, classify) {
       this.$router.push(`/storylist/${classifyId}/${classify}`);
