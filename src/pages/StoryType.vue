@@ -92,7 +92,7 @@ body,
 }
 .van-grid {
   width: 297px;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
