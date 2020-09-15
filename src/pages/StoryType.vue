@@ -97,6 +97,9 @@ body,
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+.van-hairline--top::after {
+  border-top-width: 0px;
+}
 .van-grid-item__text {
   color: #fff;
 }
@@ -104,6 +107,7 @@ body,
   width: 138px;
   height: 50px;
   line-height: 50px;
+  margin: 0 auto;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 2px;
