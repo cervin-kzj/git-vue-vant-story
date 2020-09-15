@@ -97,6 +97,11 @@ body,
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+@media screen and (max-width: 297px) {
+  .van-grid {
+    width: auto;
+  }
+}
 .van-hairline--top::after {
   border-top-width: 0px;
 }
