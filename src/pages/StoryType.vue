@@ -1,5 +1,5 @@
 <template>
-  <div class="typeWrap">
+  <div class="typeWrap" :style="bG">
     <van-grid :column-num="2">
       <van-grid-item
         v-for="(item,index) of storyTypeList"
@@ -49,6 +49,9 @@ export default {
       activeColor: "#07c160",
       inactiveColor: "#000",
       storyTypeList: [],
+      bG:{
+        backgroundImage: 'url("https://www.zhaoyunuo.net/1.jpg")'
+      }
     };
   },
   mounted() {
@@ -87,7 +90,9 @@ body,
 }
 .typeWrap {
   width: 100%;
-  background: url("https://www.zhaoyunuo.net/1.jpg") no-repeat 0px 0px;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 0px;
   background-size: 100% 100%;
 }
 .van-grid {
